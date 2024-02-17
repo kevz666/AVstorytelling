@@ -9,6 +9,13 @@ html, body, header, nav, main, footer {
 /* not sure how i feel about the current background/text color contrast
 i didn't want it to be too eye straining */
 
+#myVideo {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid black;
+    border-radius: 5px;
+  }  
+
 p {
     color:rgb(185, 184, 184);
     text-align: center;

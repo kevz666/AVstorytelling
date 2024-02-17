@@ -78,3 +78,49 @@ footer {
     /* padding: 10px 0; */
 }
 /* this is to add our names at the bottom */
+
+.video-container {
+  position: relative;
+  max-width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+}
+
+.message-box {
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.message-box p {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+#startRideButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#startRideButton:hover {
+  background-color: #0056b3;
+}

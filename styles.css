@@ -65,7 +65,7 @@ footer {
 }
 
 .video-container video {
-  width: auto; /* Maintain aspect ratio */
+  width: 100%; /* Maintain aspect ratio */
   height: 100%; /* Full height of the container */
   object-fit: cover; /* Cover the entire area without stretching */
 }

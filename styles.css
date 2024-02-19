@@ -6,8 +6,6 @@ html, body, header, nav, main, footer {
     background-color: rgb(21, 21, 21);
     color:rgb(185, 184, 184);
 }
-/* not sure how i feel about the current background/text color contrast
-i didn't want it to be too eye straining */
 
 #myVideo {
     max-width: 100%;
@@ -46,30 +44,9 @@ header {
     padding: 20px 0;
 } 
 /* i left the header in here so there is something at the top,
-but the figma vision didnt have a header until afte the interactive part.
+but the figma vision didnt have a header until after the interactive part.
 so we can take it out later */
 
-/* nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: rgb(218, 218, 218);
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-} */
 
 footer {
     text-align: center;
@@ -82,6 +59,7 @@ footer {
 .video-container {
   position: relative;
   max-width: 100%;
+  max-height: 100%;
 }
 
 .overlay {

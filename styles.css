@@ -110,3 +110,31 @@ footer {
 #startRideButton:hover {
   background-color: #0056b3;
 }
+
+#yieldButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5DC4F1;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#yieldButton:hover {
+  background-color: #0056b3;
+}
+
+#keepDrivingButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5DC4F1;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#keepDrivingButton:hover {
+  background-color: #0056b3;
+}

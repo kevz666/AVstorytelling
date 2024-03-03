@@ -3,7 +3,7 @@ html, body, header, nav, main, footer {
   margin: 0;
   padding: 0;
   font-family: "inter", sans-serif;
-  background-color: rgb(21, 21, 21);
+  background-color: rgb(0, 0, 0);
   color:rgb(185, 184, 184);
 }
 #myVideo {
@@ -34,7 +34,14 @@ p {
   padding: 50px;
 }
 h1 {
-  color:rgb(185, 184, 184);
+  color:rgb(255, 255, 255);
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+}
+h2 {
+  color:rgb(255, 255, 255);
   text-align: center;
   width: 50%;
   margin: auto;
@@ -57,7 +64,7 @@ but the figma vision didnt have a header until after the interactive part.
 so we can take it out later */
 footer {
   text-align: center;
-  background-color: rgb(21, 21, 21);
+  background-color: rgb(0, 0, 0);
   color: #fff;
   /* padding: 10px 0; */
 }

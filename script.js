@@ -44,7 +44,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         keepDrivingButton.onclick = function() {
           overlay.innerHTML = `
               <div class="message-box">
-                  <p>The AV yielded to the pedestrians.</p>
+                  <p>The AV yielded to the pedestrians.<br>
+                  <i>Scroll down to continue</i></p>
               </div>`;
           overlay.style.display = 'block';
         };
@@ -82,7 +83,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         nowButton.onclick = function() {
           overlay2.innerHTML = `
               <div class="message-box">
-                  <p>The AV chose to switch lanes now.</p>
+                  <p>The AV chose to switch lanes now.<br>
+                  <i>Scroll down to continue</i></p>
               </div>`;
           overlay2.style.display = 'block';
         };

@@ -14,6 +14,20 @@ html, body, header, nav, main, footer {
     border-radius: 5px;
   }  
 
+  #mySecondVideo {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid black;
+    border-radius: 5px;
+  }  
+
+  #myThirdVideo {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid black;
+    border-radius: 5px;
+  }  
+
 p {
     color:rgb(185, 184, 184);
     text-align: center;
@@ -53,6 +67,7 @@ footer {
     background-color: rgb(21, 21, 21);
     color: #fff;
     /* padding: 10px 0; */
+    height: 100px;
 }
 /* this is to add our names at the bottom */
 
@@ -70,7 +85,59 @@ footer {
   object-fit: cover; /* Cover the entire area without stretching */
 }
 
+.video-container2 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.video-container2 video {
+  width: 100%; /* Maintain aspect ratio */
+  height: 100%; /* Full height of the container */
+  object-fit: cover; /* Cover the entire area without stretching */
+}
+
+.video-container3 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.video-container3 video {
+  width: 100%; /* Maintain aspect ratio */
+  height: 100%; /* Full height of the container */
+  object-fit: cover; /* Cover the entire area without stretching */
+}
+
 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+}
+
+.overlay3 {
   position: absolute;
   top: 0;
   left: 0;
@@ -153,9 +220,110 @@ footer {
   background-color: #0056b3;
 }
 
+<<<<<<< HEAD
+.image-container {
+  position: relative;
+  color: white;
+=======
+#nowButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5DC4F1;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#nowButton:hover {
+  background-color: #0056b3;
+}
+
+#waitButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5DC4F1;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#waitButton:hover {
+  background-color: #0056b3;
+}
+
+#continueRideButton2 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5DC4F1;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#continueRideButton2:hover {
+  background-color: #0056b3;
+}
+
+#endButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5DC4F1;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#endButton:hover {
+  background-color: #0056b3;
+}
+
 #road-img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  right: 50px;
 }
 
+.article-text {
+  position: absolute;
+  right: 30%;
+  color:rgb(185, 184, 184);
+  /* right: 50%; */
+}
+
+/* .floating-text1 {
+  /* color:rgb(185, 184, 184);   */
+  /* position: absolute;
+  left: 50px;
+  top: 0%;
+} */ 
+
+/* .floating-text2 { */
+  /* color:rgb(185, 184, 184); */
+  /* position: absolute;
+  left: 75%;
+  top: 10%;
+} */
+
+/* .floating-text3 { */
+  /* color:rgb(185, 184, 184); */
+  /* position: absolute;
+  left: 10%;
+  top: 25%;
+} */
+
+/* .floating-text4 { */
+  /* color:rgb(185, 184, 184); */
+  /* position: absolute;
+  left: 55%;
+  top: 50%;
+} */
+
+@media (max-width: 500px;) {
+  image-container{display: none;}
+}
+/* this should make it so on mobile you can only see the article */

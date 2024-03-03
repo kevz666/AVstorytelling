@@ -220,11 +220,10 @@ footer {
   background-color: #0056b3;
 }
 
-<<<<<<< HEAD
 .image-container {
   position: relative;
   color: white;
-=======
+
 #nowButton {
   padding: 10px 20px;
   border: none;
@@ -323,7 +322,7 @@ footer {
   top: 50%;
 } */
 
-@media (max-width: 500px;) {
+@media (max-width: 500px) {
   image-container{display: none;}
 }
 /* this should make it so on mobile you can only see the article */

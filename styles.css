@@ -351,11 +351,35 @@ width: 50%;
   font-weight: semi-bold;
   text-align: center;
   color: #f7f0f0;
-  background-color: #000000;
+  background-color: #00000000;
   max-width: 70%;
   position: sticky;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.image-container {
+  position: relative;
+  width: fit-content; /* This will adjust based on your image size */
+  display: inline-block; /* Ensures the container fits around the content */
+  color:rgb(0, 0, 0);
+}
+
+.bottom-image {
+  display: block;
+  width: 100%; /* Ensures the image stretches to the container's width */
+  height: auto; /* Maintains aspect ratio */
+  position: fixed;
+  opacity: 0.2;
+  filter: blur(1.25px); /* Blurs the image */
+}
+
+.top-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensures the overlay covers the bottom image completely */
+  height: 100%; /* Ensures the overlay covers the bottom image completely */
 }

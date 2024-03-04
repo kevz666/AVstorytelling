@@ -53,10 +53,19 @@ html, body, header, nav, main, footer {
 
 p {
   color:rgb(185, 184, 184);
-  text-align: center;
+  text-align: left;
   width: 50%;
   margin: auto;
   padding: 50px;
+  font-family: "Georgia", serif;
+}
+
+p2 {
+  color:rgb(185, 184, 184);
+  text-align: center;
+  width: 50%;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
 }
 h1 {
   color:rgb(255, 255, 255);
@@ -333,4 +342,20 @@ width: 50%;
 .pull-quote:hover {
   transform: scale(1.1);
   color: #bcd8f6;
+}
+
+.pull-quote {
+  font-style: italic;
+  font-size: 1.2em;
+  font-family: Georgia, serif;
+  font-weight: semi-bold;
+  text-align: center;
+  color: #f7f0f0;
+  background-color: #000000;
+  max-width: 70%;
+  position: sticky;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }

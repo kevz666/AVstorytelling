@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       Video.onended = function() {
         overlay.innerHTML = `
           <div class="message-box">
-              <p>Some pedestrians are crossing, do you...</p>
+              <p2>Some pedestrians are crossing, do you...</p2><br><br><br>
               <button id="yieldButton">Yield</button>
               <button id="keepDrivingButton">Keep Driving</button>
           </div>`;
@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         yieldButton.onclick = function() {
           overlay.innerHTML = `
               <div class="message-box">
-                  <p>The AV yielded to the pedestrians.<br>
-                  <i>Scroll down to continue</i></p>
+                  <p2>The AV yielded to the pedestrians.</p2><br>
+                  <p2><i>Scroll down to continue</i></p2>
               </div>`;
           overlay.style.display = 'block';
         };
@@ -44,8 +44,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         keepDrivingButton.onclick = function() {
           overlay.innerHTML = `
               <div class="message-box">
-                  <p>The AV yielded to the pedestrians.<br>
-                  <i>Scroll down to continue</i></p>
+                  <p2>The AV yielded to the pedestrians.</p2><br>
+                  <p2><i>Scroll down to continue</i></p2>
               </div>`;
           overlay.style.display = 'block';
         };
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       secondVideo.onended = function() {
         overlay2.innerHTML = `
           <div class="message-box">
-              <p>You want to change lanes, do you do it now or wait...</p>
+              <p2>You want to change lanes, do you do it now or wait...</p2><br><br><br>
               <button id="nowButton">Now</button>
               <button id="waitButton">Wait</button>
           </div>`;
@@ -83,8 +83,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         nowButton.onclick = function() {
           overlay2.innerHTML = `
               <div class="message-box">
-                  <p>The AV chose to switch lanes now.<br>
-                  <i>Scroll down to continue</i></p>
+                  <p2>The AV chose to switch lanes now.</p2><br>
+                  <p2><i>Scroll down to continue</i></p2>
               </div>`;
           overlay2.style.display = 'block';
         };
@@ -92,8 +92,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         waitButton.onclick = function() {
           overlay2.innerHTML = `
               <div class="message-box">
-                  <p>The AV chose to switch lanes now.<br>
-                  <i>Scroll down to continue</i></p>
+              <p2>The AV chose to switch lanes now.</p2><br>
+              <p2><i>Scroll down to continue</i></p2>
               </div>`;
           overlay2.style.display = 'block';
         };
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       thirdVideo.onended = function() {
         overlay3.innerHTML = `
           <div class="message-box">
-              <p>You have arrived.</p>
+              <p2>You have arrived.</p2><br><br><br>
               <button id="endButton">End Ride</button>
           </div>`;
         overlay3.style.display = 'block';
@@ -128,8 +128,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         endButton.onclick = function() {
           overlay3.innerHTML = `
               <div class="message-box">
-                  <p>Thank you for riding in an autonomous vehicle.<br>
-                  <i>Scroll down to continue</i></p>
+                  <p2>Thank you for riding in an autonomous vehicle.</p2><br>
+                  <p2><i>Scroll down to continue</i></p2>
               </div>`;
           overlay3.style.display = 'block';
         };

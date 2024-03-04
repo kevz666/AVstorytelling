@@ -53,6 +53,13 @@ html, body, header, nav, main, footer {
 
 p {
   color:rgb(185, 184, 184);
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+}
+p2 {
+  color:rgb(185, 184, 184);
   text-align: center;
   width: 50%;
   margin: auto;
@@ -192,6 +199,11 @@ margin-bottom: 20px;
 color: rgb(255, 255, 255);
 font-size: 1.2rem;
 }
+.message-box p2 {
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  }
 #startRideButton {
 padding: 10px 20px;
 border: none;

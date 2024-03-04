@@ -1,5 +1,13 @@
 /* Resetting some default browser styles */
-html, body, header, nav, main, footer {
+html, header, nav, main, footer {
+  margin: 0;
+  padding: 0;
+  font-family: "rubik", sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  color:rgb(185, 184, 184);
+  font-size: 20px;
+}
+body {
   margin: 0;
   padding: 0;
   font-family: "rubik", sans-serif;
@@ -374,6 +382,7 @@ width: 50%;
   position: fixed;
   opacity: 0.2;
   filter: blur(1.25px); /* Blurs the image */
+  z-index: -1; /* Ensures the image goes behind the paragraph */
 }
 
 .top-image {
